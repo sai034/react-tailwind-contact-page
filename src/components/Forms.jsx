@@ -1,20 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Button, Form, Input, Row, Col,ConfigProvider} from 'antd';
 const Forms = () => {
   const colors1 = ['#1C1258','#FFB0B0'];
   const [form] = Form.useForm();
-  const [clientReady, setClientReady] = useState(false);
+ 
 
-  // To disable submit button at the beginning.
-  useEffect(() => {
-    setClientReady(true);
-  }, []);
-  const onFinish = (values) => {
-    console.log('Finish:', values);
-  };
   return (
-   
-    <Form form={form} name="horizontal_login" layout="vertical" onFinish={onFinish} className="mx-24 mt-32">
+    <Form form={form} name="horizontal_login" layout="vertical"  className="mx-24 mt-32">
       <Row gutter={24}>
         <Col span={12}>
           <Form.Item
