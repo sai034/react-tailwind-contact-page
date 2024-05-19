@@ -1,0 +1,71 @@
+.App {
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.form-space{
+
+    width: 820px;
+    height: 700px;
+    Top:690px;
+    Left:289px;
+    background: linear-gradient(180deg, #F3F1FF 0%, rgba(255, 214, 189, 0.38) 100%);
+   
+}
+
+button {
+position: absolute;
+
+top: 15px;
+background: #1C1258;
+border-radius: 6px;
+}
+.container1 {
+height: 315px;
+top: 80px;
+gap: 0px;
+opacity: 0px;
+background: linear-gradient(84.22deg, #1C1258 43.78%, #FFB0B0 207.86%);
+}
+
+.container2 {
+  height: 315px;
+  top: 80px;
+  gap: 0px;
+  opacity: 0px;
+  background: linear-gradient(70.00deg, #1C1258 30.78%,#FFB0B0, #1C1258 180.78%);
+  }
+  
+.contact-label {
+
+  color: white;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+/* We're excited to hear about your idea, whether it's straightforward or complex. At NewDefines, we thrive on meeting new challenges and connecting with new faces. If you're unsure where to start, share more about your company and how you think we can help. Team NewDefines is here to listen, adjust, and execute changes tailored to your business needs. It's that simple. */
+.container3 {
+position: absolute;
+width: 1133px;
+height: 119px;
+left: 142px;
+text-align: center;
+color: #777777;
+}
