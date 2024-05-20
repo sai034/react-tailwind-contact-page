@@ -17,7 +17,7 @@
 } */
 
 /* Form Space */
-.form-space{
+.form-place{
 
     width: 820px;
     height: 700px;
@@ -64,10 +64,11 @@ background: linear-gradient(84.22deg, #1C1258 43.78%, #FFB0B0 207.86%);
 
 /*Para Text*/
 .container3 {
-position: absolute;
+/* position: absolute; */
 width: 1133px;
 height: 119px;
-left: 142px;
+/* left: 142px; */
 text-align: center;
 color: #777777;
+margin-left: 160px;
 }
