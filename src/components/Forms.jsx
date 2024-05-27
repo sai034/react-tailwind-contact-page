@@ -3,8 +3,6 @@ import { Button, Form, Input, Row, Col,ConfigProvider} from 'antd';
 const Forms = () => {
   const colors1 = ['#1C1258','#FFB0B0'];
   const [form] = Form.useForm();
- 
-
   return (
     <Form form={form} name="horizontal_login" layout="vertical"  className="mx-24 mt-32">
       <Row gutter={24}>
@@ -12,6 +10,7 @@ const Forms = () => {
           <Form.Item
             name="username"
             label="Username"
+            
             rules={[
               {
                 
@@ -98,7 +97,7 @@ const Forms = () => {
       theme={{
         components: {
           Button: {
-            colorPrimary:`linear-gradient(84.22deg, ${colors1.join(', ')})`,
+            colorPrimary:`linear-gradient(104.22deg, ${colors1.join(', ')})`,
           
           },
         },
