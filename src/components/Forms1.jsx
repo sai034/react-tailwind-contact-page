@@ -114,7 +114,7 @@ const Forms1 = () => {
             }}
           >
       
-            <Button type="primary" size="large">
+            <Button type="primary" size="small">
               Send Message
             </Button>
           </ConfigProvider>

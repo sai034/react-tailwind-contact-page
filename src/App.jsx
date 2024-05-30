@@ -11,8 +11,7 @@ import { Button, Form, Input, Row, Col,ConfigProvider} from 'antd';
 
 // <div class="grid grid-cols-1 md:grid-cols-2 lg: gid-cols-3 gap-10"></div>
 function App() {
-  const [form] = Form.useForm();
-  const colors1 = ['#1C1258','#FFB0B0'];
+
  return (
   <div>
     <Header />
@@ -24,7 +23,7 @@ function App() {
                 share more about your company and how you think we can help. Team NewDefines is here to listen, adjust, and execute changes tailored to your business needs. It's that simple.</p>
                 </div>
         <div className=" mx-16 flex flex-col justify-center items-center">
-          {/* Setting the form space */}
+          {/* Setting the form space  For Large Screens*/} 
         <div className='form-place hidden lg:block'>
            {/* Setting the form usng ant design */}
            <Forms />
@@ -32,6 +31,7 @@ function App() {
       </div>
      
       <div className='flex-none lg:hidden'>
+        {/* For Small Screens */}
       <div className='form-place2'>
        <Forms1 />
       </div>
