@@ -26,7 +26,7 @@ return (
   {/* className="rounded-full mx-24 absolute left-0 top-2 w-12 h-12 */}
 
   
-     <img className='mx-6 w-12 h-14' src={logo} /> 
+     <img className='mx-12 w-12 h-14' src={logo} /> 
      {/* <div classname='visible sm'>     
       <Button type="primary" onClick={showDrawer}>
         Open
