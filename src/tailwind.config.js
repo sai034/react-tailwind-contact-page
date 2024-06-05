@@ -1,3 +1,5 @@
+const { extend } = require("lodash");
+
 module.exports = {
     important: true,
     content: [
@@ -5,6 +7,7 @@ module.exports = {
       "./src/components/*.{js,jsx,ts,tsx}",
      
     ],
+  
 
    
     plugins: [],

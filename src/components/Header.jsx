@@ -1,10 +1,11 @@
 import React from 'react';
 import '../App.css';
 import logo from '../logo.jpg';
+
 import { useState } from 'react';
 import { Drawer  } from 'antd'
-import { AppstoreOutlined, MailOutlined, SettingOutlined,MenuFoldOutlined } from '@ant-design/icons';
-import { Button, Form, Input, Row, Col,ConfigProvider} from 'antd'
+import { MenuFoldOutlined } from '@ant-design/icons';
+// import { Button, Form, Input, Row, Col,ConfigProvider} from 'antd'
 function Header() {
 
     const [open, setOpen] = useState(false);
@@ -16,16 +17,10 @@ function Header() {
       };
 return (
 <div>
-       {/*Setting width and height and background color and aligning the div content in center using flex */}
+      
  
   <div className="px-3 py-2 mx-auto bg-white w-[90%] flex justify-between items-center">
-  {/* Styling image - rounded(eclipse) */} 
-  {/* Setting mx-24(margin-left and right in 96px and width(w-12) and height(h-12) in 48px) */}
-  {/* left-0 top-2 (Arranging the image in the div) */}
 
-  {/* className="rounded-full mx-24 absolute left-0 top-2 w-12 h-12 */}
-
-  
      <img className='mx-12 w-12 h-14' src={logo} /> 
      {/* <div classname='visible sm'>     
       <Button type="primary" onClick={showDrawer}>
@@ -47,7 +42,7 @@ return (
        
         <div className='flex-none lg:hidden '>
     
-    <div className="float-left mt-4  w-20 h-14"> <MenuFoldOutlined   onClick={showDrawer} />
+    <div className="float-left text-purple-900 mt-4 w-20 h-14"> <MenuFoldOutlined   onClick={showDrawer}  />
   </div></div>
       </div>
     
@@ -67,3 +62,4 @@ return (
 )
 }
 export default Header
+

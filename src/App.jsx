@@ -6,10 +6,10 @@ import Footer from './components/Footer.jsx';
 import Forms from './components/Forms.jsx';
 import Forms1 from './components/Forms1.jsx';
 import Footer1 from './components/Footer1.jsx';
-import { Button, Form, Input, Row, Col,ConfigProvider} from 'antd';
 
 
-// <div class="grid grid-cols-1 md:grid-cols-2 lg: gid-cols-3 gap-10"></div>
+
+// <div class="grid grid-cols-1 md:grid-cols-2 lg: grid-cols-3 gap-10"></div>
 function App() {
 
  return (
