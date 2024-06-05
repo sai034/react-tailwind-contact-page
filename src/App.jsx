@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header.jsx';
-import Contact_us from './components/Contact_us.jsx';
+import ContactUs from './components/ContactUs.jsx';
 import Footer from './components/Footer.jsx';
 import Forms from './components/Forms.jsx';
 import Forms1 from './components/Forms1.jsx';
@@ -15,7 +15,7 @@ function App() {
  return (
   <div>
     <Header />
-   <Contact_us />
+   <ContactUs />
    <div className="container mx-auto px-6 py-8 ">
                 <p className="font-Rubik text-center text-gray-700">
                 We're excited to hear about your idea, whether it's straightforward or complex. At NewDefines, we 
