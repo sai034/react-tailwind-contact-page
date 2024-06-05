@@ -47,7 +47,7 @@ return (
        
         <div className='flex-none lg:hidden '>
     
-    <div className="float-left mt-4  w-20 h-14"> <MenuFoldOutlined   onClick={showDrawer} />
+    <div className="float-left text-purple-900 mt-4  w-20 h-14"> <MenuFoldOutlined   onClick={showDrawer} />
   </div></div>
       </div>
     
