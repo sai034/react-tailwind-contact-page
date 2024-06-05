@@ -9,7 +9,7 @@ function Footer() {
     <div className='flex justify-center items-center '> 
   
         {/* Setting text white and setting text double extra large and setting margin-top in 16px*/}
-        <div className='text-white text-2xl mt-16'>
+        <div className='text-white text-2xl mt-8'>
           Links
         </div> 
      

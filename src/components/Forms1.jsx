@@ -5,7 +5,8 @@ const Forms1 = () => {
     const colors1 = ['#1C1258','#FFB0B0'];
  
         return (
-            <Form form={form} name="horizontal_login" layout="vertical"  className="mx-12 mt-24">
+          <div>  
+            <Form form={form} name="horizontal_login" layout="vertical"  className="mx-12 mt-24" >
 
             <Row gutter={24}>
               <Col span={24}>
@@ -126,6 +127,7 @@ const Forms1 = () => {
               
              
             </Form>
+            </div>
         )
     
 }

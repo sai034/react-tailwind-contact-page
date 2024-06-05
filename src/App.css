@@ -90,12 +90,11 @@ margin-left: 160px;
   height: calc(100vh - 55px);  
 }
 .form-place2 {
-  width: 420px;
+  width: 340px;
   height: 550px;
   background: linear-gradient(180deg, #F3F1FF 0%, rgba(255, 214, 189, 0.38) 100%);
 }
 .mar {
   margin-top:40px;
 }
-
 
