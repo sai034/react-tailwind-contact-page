@@ -40,6 +40,7 @@ padding-right: 50px;
 .container1 {
 height: 315px;
 top: 80px;
+width: 100%;
 background: linear-gradient(84.22deg, #1C1258 43.78%, #FFB0B0 207.86%);
 }
 

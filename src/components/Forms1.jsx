@@ -6,7 +6,7 @@ const Forms1 = () => {
  
         return (
           <div>  
-            <Form form={form} name="horizontal_login" layout="vertical"  className="mx-12 mt-24" >
+            <Form form={form} name="horizontal_login" layout="vertical"  className="mx-12 mt-12" >
 
             <Row gutter={24}>
               <Col span={24}>
@@ -114,10 +114,11 @@ const Forms1 = () => {
               },
             }}
           >
-      
-            <Button type="primary" size="small">
+           <div className='ml-12'>
+            <Button type="primary" size="medium">
               Send Message
             </Button>
+            </div>
           </ConfigProvider>
             
           </Form.Item> 
